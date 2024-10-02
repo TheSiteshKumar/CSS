@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hex Color System Explanation</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        padding: 20px;
+        line-height: 1.6;
+      }
+      h1 {
+        color: #333;
+      }
+      h2 {
+        color: #555;
+      }
+      .color-box {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+      }
+      .color-box div {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      }
+      .color-box div span {
+        display: none;
+      }
+      .color-box div:hover span {
+        display: block;
+      }
+      .example {
+        background-color: #e0e0e0;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      .footer {
+        margin-top: 50px;
+        text-align: center;
+        color: #777;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Understanding the Hex Color System</h1>
+
+    <p>
+      The Hex color model is a way of specifying colors using hexadecimal
+      values. Each color is represented by a six-digit combination of numbers
+      and letters defined by its mix of red, green, and blue (RGB). The format
+      is <code>#RRGGBB</code>.
+    </p>
+
+    <h2>Basic Hex Colors</h2>
+    <div class="color-box">
+      <div style="background-color: #ff0000">Red <span>#FF0000</span></div>
+      <div style="background-color: #00ff00">Green <span>#00FF00</span></div>
+      <div style="background-color: #0000ff">Blue <span>#0000FF</span></div>
+    </div>
+
+    <h2>Combination of Hex Colors</h2>
+    <div class="color-box">
+      <div style="background-color: #ffff00">Yellow <span>#FFFF00</span></div>
+      <div style="background-color: #00ffff">Cyan <span>#00FFFF</span></div>
+      <div style="background-color: #ff00ff">Magenta <span>#FF00FF</span></div>
+      <div style="background-color: #ffffff">White <span>#FFFFFF</span></div>
+      <div style="background-color: #000000">Black <span>#000000</span></div>
+    </div>
+
+    <h2>Examples</h2>
+    <div class="example">
+      <p style="color: #800000">This text is dark red (#800000).</p>
+      <p style="color: #008000">This text is dark green (#008000).</p>
+      <p style="color: #000080">This text is dark blue (#000</p>
+    </div>
+  </body>
+</html>

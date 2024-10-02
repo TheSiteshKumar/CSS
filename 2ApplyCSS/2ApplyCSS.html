@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Inclusion Methods</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Internal CSS -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin-top: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .syntax-example {
+        font-family: monospace;
+        background-color: #f9f9f9;
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin-top: 10px;
+      }
+      .external-example {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Inclusion Methods</h1>
+
+    <div class="container">
+      <h2>External CSS</h2>
+      <p>
+        External CSS is defined in an external file with a
+        <code>.css</code> extension and linked to the HTML file using the
+        <code>&lt;link&gt;</code> tag inside the
+        <code>&lt;head&gt;</code> section.
+      </p>
+      <div class="syntax-example">
+        <code> &lt;link rel="stylesheet" href="styles.css"&gt; </code>
+      </div>
+      <p class="external-example">This text is styled using external CSS.</p>
+    </div>
+
+    <div class="container">
+      <h2>Internal CSS</h2>
+      <p>
+        Internal CSS is defined within a <code>&lt;style&gt;</code> element
+        inside the <code>&lt;head&gt;</code> section of the HTML document.
+      </p>
+      <div class="syntax-example">
+        <code>
+          &lt;style&gt;<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;body {<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;font-family: Arial,
+          sans-serif;<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background-color:
+          #f0f0f0;<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;margin: 0;<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;padding: 20px;<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;}<br />
+          &lt;/style&gt;
+        </code>
+      </div>
+      <p>This text is styled using internal CSS.</p>
+    </div>
+
+    <div class="container">
+      <h2>Inline CSS</h2>
+      <p>
+        Inline CSS is used to apply styles directly within an HTML element using
+        the <code>style</code> attribute.
+      </p>
+      <div class="syntax-example">
+        <code>
+          &lt;h1 style="color: blue;"&gt;This is a heading&lt;/h1&gt;
+        </code>
+      </div>
+      <p style="color: red">This text is styled using inline CSS.</p>
+    </div>
+  </body>
+</html>

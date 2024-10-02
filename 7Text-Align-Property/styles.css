@@ -1,0 +1,34 @@
+/* CSS file to style the iron-man.html page with text align properties */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;  /* Center aligned heading */
+    color: #333;
+}
+
+h2 {
+    text-align: start;  /* Left aligned subheading */
+    color: #555;
+}
+
+h3 {
+    text-align: end;  /* Left aligned smaller subheading */
+    color: #666;
+}
+
+p {
+    text-align: justify;  /* Justified alignment for paragraphs */
+    color: #444;
+}
+
+hr {
+    border: 0;
+    block-size: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}

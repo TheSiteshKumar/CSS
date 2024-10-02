@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RGB Color System Explanation</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        padding: 20px;
+        line-height: 1.6;
+      }
+      h1 {
+        color: #333;
+      }
+      h2 {
+        color: #555;
+      }
+      .color-box {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+      }
+      .color-box div {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      }
+      .color-box div span {
+        display: none;
+      }
+      .color-box div:hover span {
+        display: block;
+      }
+      .example {
+        background-color: #e0e0e0;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      .footer {
+        margin-top: 50px;
+        text-align: center;
+        color: #777;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Understanding the RGB Color System</h1>
+
+    <p>
+      The RGB color model is used to represent and display images in electronic
+      systems, such as TVs and computers. The RGB model is an additive color
+      model in which red, green, and blue light are added together in various
+      ways to reproduce a broad array of colors.
+    </p>
+
+    <h2>Basic RGB Colors</h2>
+    <div class="color-box">
+      <div style="background-color: rgb(255, 0, 0)">
+        Red <span>rgb(255, 0, 0)</span>
+      </div>
+      <div style="background-color: rgb(0, 255, 0)">
+        Green <span>rgb(0, 255, 0)</span>
+      </div>
+      <div style="background-color: rgb(0, 0, 255)">
+        Blue <span>rgb(0, 0, 255)</span>
+      </div>
+    </div>
+
+    <h2>Combination of RGB Colors</h2>
+    <div class="color-box">
+      <div style="background-color: rgb(255, 255, 0)">
+        Yellow <span>rgb(255, 255, 0)</span>
+      </div>
+      <div style="background-color: rgb(0, 255, 255)">
+        Cyan <span>rgb(0, 255, 255)</span>
+      </div>
+      <div style="background-color: rgb(255, 0, 255)">
+        Magenta <span>rgb(255, 0, 255)</span>
+      </div>
+      <div style="background-color: rgb(255, 255, 255)">
+        White <span>rgb(255, 255, 255)</span>
+      </div>
+      <div style="background-color: rgb(0, 0, 0)">
+        Black <span>rgb(0, 0, 0)</span>
+      </div>
+    </div>
+
+    <h2>Examples</h2>
+    <div class="example">
+      <p style="color: rgb(128, 0, 0)">
+        This text is dark red (rgb(128, 0, 0)).
+      </p>
+      <p style="color: rgb(0, 128, 0)">
+        This text is dark green (rgb(0, 128, 0)).
+      </p>
+      <p style="color: rgb(0, 0, 128)">
+        This text is dark blue (rgb(0, 0, 128)).
+      </p>
+    </div>
+
+    <h2>Using RGB in CSS</h2>
+    <p>
+      In CSS, the RGB color model can be used to set the color of text,
+      backgrounds, borders, and other elements. The syntax is
+      <code>rgb(red, green, blue)</code>, where <code>red</code>,
+      <code>green</code>, and <code>blue</code> are integer values between 0 and
+      255, inclusive.
+    </p>
+
+    <div class="example">
+      <p>Here are some examples of how to use the RGB color model in CSS:</p>
+      <pre><code>
+/* Set the background color to light blue */
+body {
+    background-color: rgb(173, 216, 230);
+}
+
+/* Set the text color to dark red */
+h1 {
+    color: rgb(139, 0, 0);
+}
+
+/* Set the border color to green */
+div {
+    border: 2px solid rgb(0, 128, 0);
+}
+        </code></pre>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2024 RGB Color System Explanation. All rights reserved.</p>
+    </div>
+  </body>
+</html>
