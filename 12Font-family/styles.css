@@ -1,0 +1,36 @@
+/* styles.css */
+
+/* Apply different font families */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.serif {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sans-serif {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.monospace {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.cursive {
+  font-family: "Comic Sans MS", cursive;
+}
+
+.fantasy {
+  font-family: Impact, fantasy;
+}
+
+.custom-font {
+  font-family: Arial, sans-serif;
+}

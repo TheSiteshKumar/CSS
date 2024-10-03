@@ -1,0 +1,12 @@
+/* Element Selectors */
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: green;
+}
+
+p {
+    color: blue;
+    font-size: 16px;
+    line-height: 1.5;
+}

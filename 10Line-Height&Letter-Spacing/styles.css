@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* Apply line height and letter spacing properties */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.normal {
+    /* No special styling */
+}
+
+.line-height {
+    line-height: 1.8; /* Line height set to 1.8 */
+}
+
+.letter-spacing {
+    letter-spacing: 2px; /* Letter spacing set to 2px */
+}
+
+.both {
+    line-height: 1.8; /* Line height set to 1.8 */
+    letter-spacing: 2px; /* Letter spacing set to 2px */
+}
