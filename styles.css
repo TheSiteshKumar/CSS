@@ -1,0 +1,22 @@
+/* Parent element styles */
+.parent {
+    color: darkblue;  /* Inherited property */
+    font-family: Arial, sans-serif;  /* Inherited property */
+    border: 2px solid black;  /* Non-inherited property */
+    padding: 20px;  /* Non-inherited property */
+}
+
+/* Child element styles */
+.child {
+    background-color: lightgray;  /* Non-inherited property */
+    margin: 10px;  /* Non-inherited property */
+}
+
+/* Specific styles for elements */
+h1, h2 {
+    text-align: center;  /* Non-inherited property */
+}
+
+p {
+    font-size: 16px;  /* Non-inherited property */
+}

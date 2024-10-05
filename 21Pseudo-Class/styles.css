@@ -1,0 +1,34 @@
+/* Link Styles */
+.link {
+    color: blue;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Visited Links */
+.link:visited {
+    color: purple; /* Change color for visited links */
+}
+
+/* First Child */
+ul li:first-child {
+    font-weight: bold; /* Make the first list item bold */
+}
+
+/* Last Child */
+ul li:last-child {
+    color: red; /* Change the color of the last list item */
+}
+
+/* Active Link */
+.link:active {
+    color: green; /* Change color when the link is active (clicked) */
+}
+
+/* Focused Link */
+.link:focus {
+    outline: 2px solid orange; /* Outline when focused */
+}

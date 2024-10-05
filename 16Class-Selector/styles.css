@@ -1,0 +1,18 @@
+/* Class Selectors */
+.title {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: green;
+    text-align: center;
+}
+
+.highlight {
+    color: blue;
+    font-weight: bold;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #f9f9f9;
+}

@@ -1,0 +1,8 @@
+/* Adjacent Sibling Combinator */
+h1 + p {
+  color: blue;
+}
+
+h2 + p {
+  color: green;
+}

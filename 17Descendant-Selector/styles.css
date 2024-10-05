@@ -1,0 +1,8 @@
+/* Descendant Selector */
+.container p {
+    color: blue;
+}
+
+.container .nested p {
+    color: green;
+}

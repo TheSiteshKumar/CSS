@@ -1,0 +1,15 @@
+/* ID Selector */
+#mainHeading {
+    font-family: 'Georgia', serif;
+    font-size: 32px;
+    color: blue;
+    text-align: center;
+}
+
+#specialParagraph {
+    color: red;
+    font-size: 18px;
+    background-color: yellow;
+    padding: 10px;
+    border: 2px solid black;
+}

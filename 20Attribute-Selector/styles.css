@@ -1,0 +1,76 @@
+/* Presence Selector */
+[title] {
+  color: blue;
+}
+
+/* Exact Value Selector */
+[type="button"] {
+  background-color: green;
+  color: white;
+}
+
+/* Begins With Selector */
+[class^="btn-"] {
+  font-weight: bold;
+}
+
+/* Ends With Selector */
+[src$=".webp"] {
+  border: 5px solid red;
+  width: 25%;
+}
+
+/* Contains Selector */
+[class*="nav"] {
+  text-decoration: underline;
+}
+
+/* Styling input elements based on attributes */
+/* Select all input elements */
+input {
+  margin: 10px 0;
+  padding: 5px;
+  display: block;
+}
+
+/* Select input elements of type text */
+input[type="text"] {
+  border: 2px solid #000;
+  background-color: #f0f0f0;
+}
+
+/* Select input elements of type password */
+input[type="password"] {
+  border: 2px solid #007bff;
+  background-color: #e0e0ff;
+}
+
+/* Select input elements of type email */
+input[type="email"] {
+  border: 2px solid #28a745;
+  background-color: #e0ffe0;
+}
+
+/* Select input elements of type button */
+input[type="button"] {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+/* Select input elements of type submit */
+input[type="submit"] {
+  background-color: #28a745;
+  color: #fff;
+}
+
+/* Select input elements of type reset */
+input[type="reset"] {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+/* Select input elements of type checkbox */
+input[type="checkbox"] {
+  margin-left: 0;
+  margin-right: 5px;
+}

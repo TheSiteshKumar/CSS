@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Specificity Examples</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>CSS Specificity Examples</h1>
+    <p>
+      Understanding CSS specificity is essential for resolving style conflicts.
+      Here, we'll see examples of different specificity values and how they
+      affect the styling of elements.
+    </p>
+
+    <h2>Example 1: Basic Selectors</h2>
+    <div class="example">
+      <p class="example-text" id="example-1">
+        This text is styled using multiple selectors.
+      </p>
+    </div>
+
+    <h2>Example 2: Inline Styles</h2>
+    <div class="example">
+      <p class="example-text" id="example-2" style="color: purple">
+        This text has an inline style.
+      </p>
+    </div>
+
+    <h2>Example 3: Combining Selectors</h2>
+    <div class="example">
+      <p class="example-text example-special" id="example-3">
+        This text uses a combination of selectors.
+      </p>
+    </div>
+
+    <h2>Specificity Chart</h2>
+    <table border="1">
+      <caption>
+        Specificity Values for Different Selector Types
+      </caption>
+      <thead>
+        <tr>
+          <th>Selector Type</th>
+          <th>Example</th>
+          <th>Specificity Value</th>
+          <th>Explanation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Inline Style</td>
+          <td><code>style="color: red;"</code></td>
+          <td>(1,0,0,0)</td>
+          <td>Inline styles have the highest specificity</td>
+        </tr>
+        <tr>
+          <td>ID</td>
+          <td><code>#example-1</code></td>
+          <td>(0,1,0,0)</td>
+          <td>ID selectors</td>
+        </tr>
+        <tr>
+          <td>Class</td>
+          <td><code>.example-text</code></td>
+          <td>(0,0,1,0)</td>
+          <td>Class selectors</td>
+        </tr>
+        <tr>
+          <td>Element</td>
+          <td><code>p</code></td>
+          <td>(0,0,0,1)</td>
+          <td>Element selectors</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

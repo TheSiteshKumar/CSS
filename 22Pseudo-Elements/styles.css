@@ -1,0 +1,33 @@
+/* Adding content before and after elements */
+h1::before {
+    content: "🏆 "; /* Add a trophy emoji before the h1 */
+}
+
+h1::after {
+    content: " 🎉"; /* Add a celebration emoji after the h1 */
+}
+
+/* Style the first line of a paragraph */
+p::first-line {
+    font-weight: bold; /* Make the first line bold */
+    color: blue; /* Change color to blue */
+}
+
+/* Style the first letter of a paragraph */
+p::first-letter {
+    font-size: 2em; /* Make the first letter larger */
+    color: red; /* Change color to red */
+}
+
+/* Style for a specific paragraph */
+.highlight::before {
+    content: "Note: "; /* Add 'Note:' before the paragraph */
+    font-weight: bold; /* Make it bold */
+    color: orange; /* Change color to orange */
+}
+
+/* Style the selected text */
+::selection {
+    background: yellow; /* Change background of selected text to yellow */
+    color: black; /* Change text color of selected text to black */
+}

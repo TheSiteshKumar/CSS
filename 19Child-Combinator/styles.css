@@ -1,0 +1,5 @@
+/* Child Combinator (Direct Descendants{>}) */
+.container > p {
+    color: blue;
+    font-weight: bold;
+}
