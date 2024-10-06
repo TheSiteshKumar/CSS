@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px; /* Base font size */
+}
+
+.container {
+    font-size: 1.2em; /* Increases the font size to 19.2px (16px * 1.2) */
+}
+
+.example {
+    font-size: 1.5em; /* 1.5 times the parent font size, which is 1.5 * 19.2px = 28.8px */
+}

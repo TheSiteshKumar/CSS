@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.block {
+  display: block;
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.inline {
+  display: inline;
+  background-color: #e74c3c;
+  color: white;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #3498db;
+  color: white;
+}

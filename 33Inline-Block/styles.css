@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.box {
+  display: inline-block; /* Allows boxes to sit next to each other */
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: #3498db; /* Blue color */
+  color: white;
+  text-align: center;
+  line-height: 100px; /* Center text vertically */
+  border-radius: 5px;
+}

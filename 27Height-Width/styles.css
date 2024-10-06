@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  margin: 20px;
+}
+
+.box {
+  margin-bottom: 20px;
+  padding: 10px;
+  color: white;
+  background-color: #3498db;
+  border: 2px solid #2980b9;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.fixed-size {
+  width: 200px;
+  height: 100px;
+}
+
+.percentage-size {
+  width: 50%;
+  height: 25%;
+}
+
+.viewport-size {
+  width: 50vw;
+  height: 25vh;
+}

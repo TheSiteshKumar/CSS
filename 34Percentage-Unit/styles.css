@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%; /* Container takes up 80% of the viewport width */
+  margin: 0 auto; /* Center the container */
+  background-color: #f0f0f0; /* Light grey background */
+  padding: 20px;
+}
+
+.box {
+  height: 100px; /* Fixed height */
+  margin: 10px 0; /* Vertical margin */
+  color: white;
+  text-align: center;
+  line-height: 100px; /* Center text vertically */
+}
+
+.box1 {
+  background-color: #3498db; /* Blue color */
+  width: 50%; /* 50% of the container's width */
+}
+
+.box2 {
+  background-color: #e74c3c; /* Red color */
+  width: 75%; /* 75% of the container's width */
+}

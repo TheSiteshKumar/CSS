@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.box-shorthand {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px 30px 40px; /* Top, right, bottom, left */
+  margin-bottom: 20px;
+}
+
+.box-top {
+  background-color: #e74c3c;
+  color: white;
+  padding-top: 20px; /* Only top padding */
+  margin-bottom: 20px;
+}
+
+.box-right {
+  background-color: #2ecc71;
+  color: white;
+  padding-right: 20px; /* Only right padding */
+  margin-bottom: 20px;
+}
+
+.box-bottom {
+  background-color: #9b59b6;
+  color: white;
+  padding-bottom: 20px; /* Only bottom padding */
+  margin-bottom: 20px;
+}
+
+.box-left {
+  background-color: #f39c12;
+  color: white;
+  padding-left: 50px; /* Only left padding */
+  margin-bottom: 20px;
+}
