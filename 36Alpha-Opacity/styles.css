@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+.opacity-example, .alpha-example {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  color: yellow;
+  font-size: 18px;
+}
+
+.opacity-example {
+  background-color: #007BFF;
+  opacity: 0.1; /* This affects the entire element */
+}
+
+.alpha-example {
+  background-color: rgba(40, 167, 69, 0.8); /* This affects only the background color */
+}

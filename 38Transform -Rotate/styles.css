@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #007bff;
+  margin: 20px auto;
+  transition: transform 1s;
+  display: inline-block;
+}
+
+.box:hover {
+  transform: rotate(45deg);
+}
+
+hr {
+  margin: 40px 0;
+  border: 1px solid #ccc;
+}

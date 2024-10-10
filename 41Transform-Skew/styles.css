@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: #007BFF; /* Blue */
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.x-skew:hover {
+    transform: skew(20deg, 0); /* Skew the box 20 degrees on the X-axis */
+    background-color: #28A745; /* Green */
+}
+
+.y-skew:hover {
+    transform: skew(0, 20deg); /* Skew the box 20 degrees on the Y-axis */
+    background-color: #DC3545; /* Red */
+}
+
+.xy-skew:hover {
+    transform: skew(20deg, 20deg); /* Skew the box 20 degrees on both X and Y axes */
+    background-color: #FFC107; /* Yellow */
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}

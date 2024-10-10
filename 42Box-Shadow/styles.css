@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: #007bff; /* Blue */
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  transition: box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.shadow1 {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Light shadow */
+}
+
+.shadow1:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4); /* Darker shadow on hover */
+}
+
+.shadow2 {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Medium shadow */
+}
+
+.shadow2:hover {
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.7); /* Darker shadow on hover */
+}
+
+.shadow3 {
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.8); /* Heavy shadow */
+}
+
+.shadow3:hover {
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 1); /* Darker shadow on hover */
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #555;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}

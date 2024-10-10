@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #28a745; /* Green */
+    margin: 20px auto;
+    transition: transform 0.3s; /* Duration of the scaling effect */
+    display: inline-block;
+}
+
+.box:hover {
+    transform: scale(3, 1.5); /* Scale the box on hover */
+}
+
+hr {
+    margin: 40px 0;
+    border: 1px solid #ccc;
+}

@@ -1,0 +1,86 @@
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Spacer for scrolling */
+.spacer {
+  height: 100px; /* Space between elements for better visibility */
+}
+
+/* Static Position */
+.static-box {
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  line-height: 100px; /* Center text vertically */
+  margin-bottom: 20px;
+}
+
+/* Relative Position */
+.relative-box {
+  position: relative;
+  top: 20px; /* Moves down from its normal position */
+  left: 30px; /* Moves to the right from its normal position */
+  width: 200px;
+  height: 100px;
+  background-color: green;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  margin-bottom: 20px;
+}
+
+/* Absolute Position */
+.absolute-box {
+  position: absolute; /* Positioned relative to the nearest positioned ancestor (or the viewport) */
+  top: 100px; /* Moves 100px from the top of the viewport */
+  left: 50px; /* Moves 50px from the left of the viewport */
+  width: 200px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  margin-bottom: 20px;
+}
+
+/* Fixed Position */
+.fixed-box {
+  position: fixed; /* Positioned relative to the viewport */
+  bottom: 20px; /* 20px from the bottom of the viewport */
+  right: 20px; /* 20px from the right of the viewport */
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+  color: black;
+  text-align: center;
+  line-height: 100px;
+}
+
+/* Sticky Position */
+.sticky-box {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky; /* Sticks to the top when scrolled */
+  top: 0; /* Sticks at the top of the viewport */
+  width: 100%;
+  height: 50px;
+  background-color: purple;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* Long content for scrolling */
+.long-content {
+  height: 150px; /* Creates space to scroll */
+  background-color: lightgray;
+  margin: 10px 0;
+  text-align: center;
+  line-height: 150px; /* Center text vertically */
+}

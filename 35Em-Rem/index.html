@@ -3,15 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>em Unit Example</title>
+    <title>em vs rem Example</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container">
-      <h1>This is a heading</h1>
-      <p>
-        This paragraph has a font size of <span class="example">1.5em</span>.
-      </p>
+      <h1>em vs rem Example</h1>
+      <div class="em-example">
+        <h2>em Unit Example</h2>
+        <p>
+          This paragraph is styled with <code>1em</code> font size relative to
+          its parent.
+        </p>
+        <div class="nested">
+          <p>
+            This is a nested paragraph with <code>1.5em</code> font size
+            relative to its parent.
+          </p>
+        </div>
+      </div>
+      <div class="rem-example">
+        <h2>rem Unit Example</h2>
+        <p>
+          This paragraph is styled with <code>1rem</code> font size relative to
+          the root element.
+        </p>
+        <div class="nested">
+          <p>
+            This is a nested paragraph with <code>1.5rem</code> font size
+            relative to the root element.
+          </p>
+        </div>
+      </div>
     </div>
   </body>
 </html>

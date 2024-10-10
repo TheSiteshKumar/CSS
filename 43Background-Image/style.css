@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  background-image: url("bgimage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.caption {
+  font-weight: bold;
+}
+
+.auto {
+  background-size: auto;
+}
+
+.contain {
+  background-size: contain;
+}
+
+.cover {
+  background-size: cover;
+}
+
+.length {
+  background-size: 150px 100px;
+}
+
+.percentage {
+  background-size: 50% 50%;
+}

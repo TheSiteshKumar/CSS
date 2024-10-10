@@ -1,12 +1,56 @@
+html {
+  font-size: 16px; /* Base font size */
+}
+
 body {
-    font-family: Arial, sans-serif;
-    font-size: 16px; /* Base font size */
+  font-family: Arial, sans-serif;
 }
 
 .container {
-    font-size: 1.2em; /* Increases the font size to 19.2px (16px * 1.2) */
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.example {
-    font-size: 1.5em; /* 1.5 times the parent font size, which is 1.5 * 19.2px = 28.8px */
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.em-example,
+.rem-example {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.em-example h2,
+.rem-example h2 {
+  margin-bottom: 20px;
+}
+
+.em-example p {
+  font-size: 1em;
+  background-color: #e0f7fa;
+  padding: 10px;
+}
+
+.em-example .nested p {
+  font-size: 1.5em;
+  background-color: #b2ebf2;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.rem-example p {
+  font-size: 1rem;
+  background-color: #ffe0b2;
+  padding: 10px;
+}
+
+.rem-example .nested p {
+  font-size: 1.5rem;
+  background-color: #ffcc80;
+  padding: 10px;
+  margin-top: 10px;
 }
