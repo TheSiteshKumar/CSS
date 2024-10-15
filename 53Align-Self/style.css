@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light grey background for better contrast */
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #343a40; /* Darker text color for better readability */
+}
+
+.container {
+    display: flex;
+    height: 400px; /* Adjusted height to better demonstrate alignment */
+    padding: 20px;
+    background-color: #ffffff; /* White background for container */
+    border: 2px solid #ced4da; /* Light grey border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    align-items: flex-start; /* Default alignment for all items */
+}
+
+.box {
+    flex: 0 1 150px; /* Adjusted width for better visualization */
+    margin: 10px;
+    padding: 20px;
+    color: #ffffff; /* White text for better readability */
+    border: 2px solid #343a40; /* Darker border for boxes */
+    text-align: center;
+    border-radius: 5px; /* Rounded corners for a modern look */
+}
+
+.box.flex-start {
+    align-self: flex-start;
+    background-color: #007bff; /* Blue */
+}
+
+.box.flex-end {
+    align-self: flex-end;
+    background-color: #28a745; /* Green */
+}
+
+.box.center {
+    align-self: center;
+    background-color: #dc3545; /* Red */
+}
+
+.box.baseline {
+    align-self: baseline;
+    background-color: #ffc107; /* Yellow */
+}
+
+.box.stretch {
+    align-self: stretch;
+    background-color: #17a2b8; /* Teal */
+}
+
+.box.auto {
+    align-self: auto;
+    background-color: #6c757d; /* Grey */
+}

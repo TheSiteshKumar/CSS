@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light grey background for better contrast */
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 20px 0;
+  color: #343a40; /* Darker text color for better readability */
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+  background-color: #ffffff; /* White background for containers */
+  border: 2px solid #ced4da; /* Light grey border */
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-stretch {
+  align-items: stretch;
+}
+
+.align-baseline {
+  align-items: baseline;
+}
+
+.box {
+  flex: 0 1 150px; /* Fixed width for better visualization */
+  margin: 10px;
+  padding: 20px;
+  color: #ffffff; /* White text for better readability */
+  border: 2px solid #343a40; /* Darker border for boxes */
+  text-align: center;
+  border-radius: 5px; /* Rounded corners for a modern look */
+}
+
+.box.tall {
+  height: 100px; /* Added height to demonstrate align-items */
+}
+
+.box:nth-child(1) {
+  background-color: #007bff; /* Blue */
+}
+
+.box:nth-child(2) {
+  background-color: #28a745; /* Green */
+}
+
+.box:nth-child(3) {
+  background-color: #dc3545; /* Red */
+}
